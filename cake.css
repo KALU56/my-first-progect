@@ -32,45 +32,13 @@ header {
     font-size: 2rem;
     font-weight: bold;
     margin-left: 20px;
-    font-family: 'Playwrite CU', sans-serif; /* Apply the Playwrite CU font */
+    font-family: 'Playwrite CU', sans-serif;
 }
 
-/* Header Left: Search, Cart, and Language */
+/* Header Left: Language Selector */
 .header-left {
     display: flex;
     align-items: center;
-}
-
-.header-left .search-container {
-    position: relative;
-}
-
-.header-left input[type="text"] {
-    padding: 5px 10px;
-    margin-right: 15px;
-    border-radius: 5px;
-    border: none;
-    padding-left: 30px; /* Space for search icon */
-}
-
-.header-left .search-container i {
-    position: absolute;
-    left: 10px; /* Position the icon inside input */
-    top: 50%;
-    transform: translateY(-50%);
-    color: #333;
-}
-
-/* Cart link */
-.header-left .cart {
-    margin-right: 15px;
-    text-decoration: none;
-    color: rgb(127, 103, 103);
-    font-size: 1.1rem;
-}
-
-.header-left .cart:hover {
-    text-decoration: underline;
 }
 
 /* Language selector */
@@ -104,12 +72,13 @@ nav ul li a:hover,
 nav ul li a.active {
     text-decoration: underline;
 }
+
 /* Home section */
 .home {
     height: 100vh;
-    background-image: url('https://images.pexels.com/photos/2337818/pexels-photo-2337818.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Path to your image */
-    background-size: cover;  /* Ensures the image covers the entire section */
-    background-position: center;  /* Centers the image */
+    background-image: url('https://images.pexels.com/photos/2337818/pexels-photo-2337818.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,4 +108,53 @@ nav ul li a.active {
 
 .cta-button:hover {
     background-color: #402020;
+}
+
+/* Services section */
+.services {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.category-buttons {
+    margin-bottom: 20px;
+}
+
+.category-btn {
+    background-color: #532828;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-btn:hover {
+    background-color: #402020;
+}
+
+/* Cake list styling */
+.cake-list {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+}
+
+.cake-list h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.cake-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cake-list ul li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

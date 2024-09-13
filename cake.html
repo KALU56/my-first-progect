@@ -10,14 +10,10 @@
 </head>
 <body>
     <div class="home">
+        <!-- Header Section -->
         <header>
             <div class="logo">Family Cakes</div>
             <div class="header-left">
-                <div class="search-container">
-                    <input type="text" placeholder="Search...">
-                    <i class="fas fa-search"></i> <!-- Search icon -->
-                </div>
-                <a href="#" class="cart">Cart</a>
                 <select class="language">
                     <option value="en">EN</option>
                     <option value="am">አማ</option>
@@ -34,12 +30,87 @@
                 </ul>
             </nav>
         </header>
-        
+
+        <!-- Intro Section -->
         <div class="intro-section">
             <h1>Welcome to Family Cakes</h1>
             <p>Your cozy and beautiful place to relax and unwind. Make yourself at home.</p>
             <a href="#services" class="cta-button">Explore Our Home</a>
         </div>
     </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <h2>Our Cake Categories</h2>
+        <div class="category-buttons">
+            <button class="category-btn" data-category="birthday">Birthday Cakes</button>
+            <button class="category-btn" data-category="wedding">Wedding Cakes</button>
+            <button class="category-btn" data-category="dessert">Desserts</button>
+            <button class="category-btn" data-category="chocolate">Chocolate Cakes</button>
+            <button class="category-btn" data-category="holiday">Holiday Cakes</button>
+        </div>
+
+        <!-- Cake Lists -->
+        <div class="cake-list" id="birthday">
+            <h3>Birthday Cakes</h3>
+            <ul>
+                <li>Vanilla Birthday Cake</li>
+                <li>Chocolate Sprinkles Cake</li>
+                <li>Strawberry Delight Cake</li>
+            </ul>
+        </div>
+        
+        <div class="cake-list" id="wedding">
+            <h3>Wedding Cakes</h3>
+            <ul>
+                <li>Classic White Wedding Cake</li>
+                <li>Rose Gold Tier Cake</li>
+                <li>Modern Minimalist Cake</li>
+            </ul>
+        </div>
+
+        <div class="cake-list" id="dessert">
+            <h3>Desserts</h3>
+            <ul>
+                <li>Chocolate Mousse</li>
+                <li>Fruit Tart</li>
+                <li>Cheesecake</li>
+            </ul>
+        </div>
+
+        <div class="cake-list" id="chocolate">
+            <h3>Chocolate Cakes</h3>
+            <ul>
+                <li>Dark Chocolate Cake</li>
+                <li>Chocolate Lava Cake</li>
+                <li>Chocolate Truffle Cake</li>
+            </ul>
+        </div>
+
+        <div class="cake-list" id="holiday">
+            <h3>Holiday Cakes</h3>
+            <ul>
+                <li>Christmas Fruit Cake</li>
+                <li>Easter Bunny Cake</li>
+                <li>New Year Celebration Cake</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- JavaScript for Category Buttons -->
+    <script>
+        document.querySelectorAll('.category-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                // Hide all cake lists
+                document.querySelectorAll('.cake-list').forEach(list => {
+                    list.style.display = 'none';
+                });
+
+                // Show the selected cake list
+                const category = this.getAttribute('data-category');
+                document.getElementById(category).style.display = 'block';
+            });
+        });
+    </script>
 </body>
 </html>
