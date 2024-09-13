@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Playwrite CU', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+/* Navbar styles */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+    
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        padding: 20px;
+        border-top: 1px solid #ddd;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+.home {
+    background-image: url('https://cdn.leonardo.ai/users/329ebb14-77dd-42d8-bea4-7a930e03ac7b/generations/3a506de7-ff56-4da6-b9ae-1ead9d35839c/Leonardo_Phoenix_A_friendly_and_humble_chef_holding_a_beautif_1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}

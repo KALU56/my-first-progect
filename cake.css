@@ -6,7 +6,6 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -21,19 +20,23 @@ header {
     font-weight: bold;
 }
 
-.header-left {
-    display: flex;
-    align-items: center;
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
 }
 
-.language {
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    background-color: #b9b6b6;
-    color: #3e3c3c;
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
 }
 
+/* Navbar styles */
 nav ul {
     display: flex;
     list-style-type: none;
@@ -55,79 +58,31 @@ nav ul li a.active {
     font-weight: bold;
 }
 
-/* Intro Section Styles */
-.intro-section {
-    text-align: center;
-    padding: 50px;
-}
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+    
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        padding: 20px;
+        border-top: 1px solid #ddd;
+    }
 
-.intro-section h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
+    nav ul {
+        flex-direction: column;
+    }
 
-.intro-section p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.cta-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.cta-button:hover {
-    background-color: #555;
-}
-
-
-/* Logo */
-.logo {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-left: 20px;
-    font-family: 'Playwrite CU', sans-serif;
-}
-
-/* Header Left: Language Selector */
-.header-left {
-    display: flex;
-    align-items: center;
-}
-
-/* Language selector */
-.header-left select.language {
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    background-color: #b9b6b6;
-    color: #3e3c3c;
-}
-
-/* Navigation */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: rgb(20, 16, 16);
-    font-size: 1.1rem;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-    text-decoration: underline;
+    nav ul li {
+        margin: 10px 0;
+    }
 }
 
 /* Home section */
