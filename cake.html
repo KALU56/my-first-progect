@@ -10,11 +10,10 @@
 </head>
 <body>
     <div class="home">
-        <!-- Header Section -->
         <header>
-            <div class="logo">Family Cakes</div>
+            <div class="logo" data-en="Family Cakes" data-am="የቤተሰብ ኬኮች" data-fr="Gâteaux de famille">Family Cakes</div>
             <div class="header-left">
-                <select class="language">
+                <select class="language" id="language-selector">
                     <option value="en">EN</option>
                     <option value="am">አማ</option>
                     <option value="fr">FR</option>
@@ -22,22 +21,24 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="active" data-en="Home" data-am="ቤት" data-fr="Accueil">Home</a></li>
+                    <li><a href="#services" data-en="Services" data-am="አገልግሎቶች" data-fr="Services">Services</a></li>
+                    <li><a href="#gallery" data-en="Gallery" data-am="ጋለሪ" data-fr="Galerie">Gallery</a></li>
+                    <li><a href="#about" data-en="About" data-am="ስለ እኛ" data-fr="À propos">About</a></li>
+                    <li><a href="#contact" data-en="Contact" data-am="እውቂያ" data-fr="Contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <!-- Intro Section -->
         <div class="intro-section">
-            <h1>Welcome to Family Cakes</h1>
-            <p>Your cozy and beautiful place to relax and unwind. Make yourself at home.</p>
-            <a href="#services" class="cta-button">Explore Our Home</a>
+            <h1 data-en="Welcome to Family Cakes" data-am="እንኳን ወደ የቤተሰብ ኬኮች መጡ" data-fr="Bienvenue à Gâteaux de famille">Welcome to Family Cakes</h1>
+            <p data-en="Your cozy and beautiful place to relax and unwind." data-am="የእርስዎ ተደላድሎና ቆንጆ ቦታ ለመዝበኛ እና ለመረፍ." data-fr="Votre endroit confortable et beau pour vous détendre.">Your cozy and beautiful place to relax and unwind.</p>
+            <a href="#services" class="cta-button" data-en="Explore Our Services" data-am="አገልግሎታችንን መርምር" data-fr="Explorez nos services">Explore Our Services</a>
         </div>
     </div>
+
+    <script src="language-switch.js"></script>
 
     <!-- Services Section -->
     <div class="services" id="services">
@@ -53,47 +54,220 @@
         <!-- Cake Lists -->
         <div class="cake-list" id="birthday">
             <h3>Birthday Cakes</h3>
-            <ul>
-                <li>Vanilla Birthday Cake</li>
-                <li>Chocolate Sprinkles Cake</li>
-                <li>Strawberry Delight Cake</li>
-            </ul>
+          <div class="Birthday Cakes">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card20"></div>
+                    <div class="card-back">$29</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card21"></div>
+                    <div class="card-back">$30</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card22"></div>
+                    <div class="card-back">$27</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card23"></div>
+                    <div class="card-back">$24</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card24"></div>
+                    <div class="card-back">$22</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card25"></div>
+                    <div class="card-back">$31</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card26"></div>
+                    <div class="card-back">$32</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card27"></div>
+                    <div class="card-back">$29</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card28"></div>
+                    <div class="card-back">$35</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card29"></div>
+                    <div class="card-back">$28</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card30"></div>
+                    <div class="card-back">$30</div>
+                </div>
+            </div>
+          </div>
         </div>
         
         <div class="cake-list" id="wedding">
             <h3>Wedding Cakes</h3>
-            <ul>
-                <li>Classic White Wedding Cake</li>
-                <li>Rose Gold Tier Cake</li>
-                <li>Modern Minimalist Cake</li>
-            </ul>
+          <div class="Wedding Cakes">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card11"></div>
+                    <div class="card-back">$19</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card12"></div>
+                    <div class="card-back">$17</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card13"></div>
+                    <div class="card-back">$24</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card14"></div>
+                    <div class="card-back">$22</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card15"></div>
+                    <div class="card-back">$26</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card16"></div>
+                    <div class="card-back">$28</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card17"></div>
+                    <div class="card-back">$21</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card18"></div>
+                    <div class="card-back">$25</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card19"></div>
+                    <div class="card-back">$23</div>
+                </div>
+            </div>
+          
+          
+            
+  
+          </div>
         </div>
 
         <div class="cake-list" id="dessert">
             <h3>Desserts</h3>
-            <ul>
-                <li>Chocolate Mousse</li>
-                <li>Fruit Tart</li>
-                <li>Cheesecake</li>
-            </ul>
+        <div class="dessert">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card7"></div>
+                    <div class="card-back">$14</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card8"></div>
+                    <div class="card-back">$25</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card9"></div>
+                    <div class="card-back">$30</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card10"></div>
+                    <div class="card-back">$16</div>
+                </div>
+            </div>
+        </div>
         </div>
 
         <div class="cake-list" id="chocolate">
+            
+
             <h3>Chocolate Cakes</h3>
-            <ul>
-                <li>Dark Chocolate Cake</li>
-                <li>Chocolate Lava Cake</li>
-                <li>Chocolate Truffle Cake</li>
-            </ul>
+            
+            <div class="Chocolate Cakes">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card1"></div>
+                    <div class="card-back">$15</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card2"></div>
+                    <div class="card-back">$12</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front card3"></div>
+                    <div class="card-back">$20</div>
+                </div>
+            </div>
+        </div>
         </div>
 
         <div class="cake-list" id="holiday">
             <h3>Holiday Cakes</h3>
-            <ul>
-                <li>Christmas Fruit Cake</li>
-                <li>Easter Bunny Cake</li>
-                <li>New Year Celebration Cake</li>
-            </ul>
+          
+            <div class="holiday">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front card4"></div>
+                        <div class="card-back">$10</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front card5"></div>
+                        <div class="card-back">$18</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front card6"></div>
+                        <div class="card-back">$22</div>
+                    </div>
+                </div>
+                </div>
         </div>
     </div>
 

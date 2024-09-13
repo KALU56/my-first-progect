@@ -1,377 +1,135 @@
-/* General Reset */
-* {
+/* General Styles */
+body {
+    font-family: 'Playwrite CU', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f5f5f5;
 }
 
-/* Body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6; 
-    background-color: #532828;
-    color: #333;
-}
-
-/* Header */
+/* Header Styles */
 header {
-    background-color: #532828;
-    color: white;
-    padding: 5px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo {
     font-size: 2rem;
     font-weight: bold;
+    margin-left: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.language {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b9b6b6;
+    color: #3e3c3c;
 }
 
 nav ul {
-    list-style: none;
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin-right: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #333;
     font-size: 1.1rem;
 }
 
-nav ul li a:hover,
 nav ul li a.active {
-    text-decoration: underline;
-}
-
-/* Home Section */
-.home {
-    display: flex; /* Added to enable the horizontal layout */
-    justify-content: space-between; /* Added to space out the elements */
-    align-items: center; /* Center elements vertically */
-    background-color: #532828;
-    height: 100vh;
-    padding-top: 90px;
-}
-.intro-img{
-    background-image: url('https://cdn.pixabay.com/photo/2019/02/25/19/16/brownie-4020334_640.jpg');
-    height: 60vh;
-    width: 40vw;
-}
-.intro-section {
-    flex: 1; /* Takes up the available space on the left */
-    text-align: left; /* Align text to the left */
-    font-size: 26px;
-    padding: 100px;
-    color: #c6bbbb;
-}
-
-.intro-section h1,
-.intro-section p {
-    text-shadow: 1px 1px 2px rgba(255, 112, 112, 0.5);
-}
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ae3c3c;
-    color: white;
-    text-decoration: none;
     font-weight: bold;
+}
+
+/* Intro Section Styles */
+.intro-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.intro-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #532828;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #9b8d94;
+    background-color: #402020;
 }
 
-.intro-img {
-    flex: 1; /* Takes up the available space on the right */
-    background-image: url('https://cdn.pixabay.com/photo/2019/02/25/19/16/brownie-4020334_640.jpg');
-    height: 60vh;
-    width: 40vw;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-right: 50px; /* Adds some space on the right */
-}
-.Services {
-    background-color: #341111;
-    padding: 20px;
-}
-
-
-.item-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 150px;
-}
-.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13, .card14, .card15, .card16, .card17, .card18, .card19, .card20, .card21, .card22, .card23, .card24, .card25, .card26, .card27, .card28, .card29, .card30 {
-    height: 200px;
-    width: 200px;
-    background-color: #450e0e;
-    margin: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-.card-back{
-    color: white;
-}
-.card-inner{
-    background-color: #320d0d;
-    border-radius: 15px;
-}
-.card1{
-    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card2{
-    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card3{
-    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card4{
-    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card5{
-    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card6{
-    background-image: url('https://cdn.pixabay.com/photo/2024/03/12/14/45/macarons-8628974_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card7{
-    background-image: url('https://cdn.pixabay.com/photo/2014/01/27/03/16/cupcake-252805_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card8{
-    background-image: url('https://cdn.pixabay.com/photo/2024/04/29/17/53/baklava-8728553_640.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card9{
-    background-image: url('https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card10{
-    background-image: url('https://cdn.pixabay.com/photo/2020/02/29/15/20/cake-4890393_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card11{
-    background-image: url('https://cdn.pixabay.com/photo/2024/06/28/06/07/cakes-8858626_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card12{
-    background-image: url('https://cdn.pixabay.com/photo/2016/09/19/23/31/cakes-1681543_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card13{
-    background-image: url('https://cdn.pixabay.com/photo/2023/01/14/18/02/birthday-cake-7718754_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card14{
-    background-image: url('https://cdn.pixabay.com/photo/2021/09/01/16/09/birthday-cake-6591720_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card15{
-    background-image: url('https://cdn.pixabay.com/photo/2020/07/05/17/16/wedding-cake-5373757_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card16{
-    background-image: url('https://cdn.pixabay.com/photo/2016/07/26/21/07/childrens-birthday-1543897_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card17{
-    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/cake-8598850_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card18{
-    background-image: url('https://cdn.pixabay.com/photo/2022/08/05/17/47/cake-7367272_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card19{
-    background-image: url('https://cdn.pixabay.com/photo/2024/04/27/13/50/ai-generated-8723779_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card20{
-    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/peach-cake-8598851_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card21{
-    background-image: url('https://cdn.pixabay.com/photo/2024/08/22/09/51/cake-8988890_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card22{
-    background-image: url('https://cdn.pixabay.com/photo/2016/01/17/21/36/cake-1145609_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card23{
-    background-image: url('https://cdn.pixabay.com/photo/2015/11/06/13/35/wedding-cake-1027900_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.card24{
-    background-image: url('https://cdn.pixabay.com/photo/2023/01/25/12/23/desert-7743456_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.card25{
-    background-image: url('https://cdn.pixabay.com/photo/2023/07/06/18/03/ai-generated-8110986_640.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.card26{
-    background-image: url('https://cdn.pixabay.com/photo/2023/03/28/15/08/ai-generated-7883452_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.card27{
-    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/cake-8598849_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.card28{
-    background-image: url('https://cdn.pixabay.com/photo/2020/11/10/10/57/wedding-5729382_640.jpg ');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.card29{
-    background-image: url('https://cdn.pixabay.com/photo/2015/07/01/08/42/cake-827399_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.card30{
-    background-image: url('https://cdn.pixabay.com/photo/2017/11/27/03/38/pie-2980431_640.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-
-}
-
-/* Other Sections */
-.Gallery, .About, .Contact {
-    height: 100vh;
-    margin: 0;
-}
-
-.Gallery {
-    background-color: #0a0909;
-}
-
-.About {
-    background-color: #450e0e;
-}
-
-.Contact {
-    background-color: #2e2c2c;
-}
-
-/* Footer */
-footer {
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
     text-align: center;
-    padding: 20px;
-    background-color: #450e0e;
-    color: white;
 }
 
+.category-buttons {
+    margin-bottom: 20px;
+}
+
+.category-btn {
+    background-color: #532828;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-btn:hover {
+    background-color: #402020;
+}
+
+/* Cake List Styling */
+.cake-list {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+}
+
+.cake-list h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.cake-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cake-list ul li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
