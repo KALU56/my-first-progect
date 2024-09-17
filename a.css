@@ -3,15 +3,15 @@ body {
     font-family: 'Playwrite CU', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;/* Milk white color */
+    background-color: #f5f5f5; /* Milk white color */
 }
 
 header {
-    position: fixed; /* Fixes the header at the top */
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10; /* Ensure header is above other elements */
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,28 +42,28 @@ header {
     margin: 3px 0;
 }
 
-/* General Styles for Navbar */
+/* Navbar Styles */
 nav {
     display: flex;
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.367);
     border-radius: 8px;
     padding: 20px;
-    position: absolute; /* Position it relative to the header */
-    top: 70px; /* Adjust based on header height */
-    right: 20px; /* Adjust based on your layout */
-    z-index: 9; /* Ensure it stays above background */
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    z-index: 9;
 }
 
 nav ul {
-    display: flex; /* Display items horizontally by default */
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px; /* Space between items */
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -75,8 +75,8 @@ nav ul li a {
 /* Mobile Styles */
 @media (max-width: 768px) {
     nav {
-        display: none; /* Hide the navbar by default */
-        flex-direction: column; /* Stack items vertically */
+        display: none;
+        flex-direction: column;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.153);
         position: absolute;
@@ -94,20 +94,398 @@ nav ul li a {
         display: flex;
     }
 }
-.home {
-    /* height: 100vh; Full screen */
-    background-size: cover;
-    background-position: center;
-}
 
-
+/* Home Section */
 .home {
-    background-image: url('https://cdn.leonardo.ai/users/329ebb14-77dd-42d8-bea4-7a930e03ac7b/generations/c574c867-45a8-4455-8478-bacc4e4640ce/Leonardo_Phoenix_A_friendly_and_humble_chef_holding_a_beautif_1.jpg');
-    background-size: contain;
-    /* background-position: center; */
+    background-size: cover; /* Changed from 'contain' to 'cover' to ensure the image covers the entire section */
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
     position: relative;
     z-index: 0;
+}
+
+/* Intro Section Styles */
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.intro-text {
+    flex: 1;
+    max-width: 50%; /* Adjust this value as needed */
+}
+
+.intro-text h1,
+.intro-text p,
+.intro-text a {
+    margin: 0 0 20px 0; /* Adjust margins as needed */
+}
+
+.intro-image {
+    flex: 1;
+    max-width: 50%; /* Adjust this value as needed */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro-image img {
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.intro-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #532828;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #402020;
+}
+
+/* Services section */
+.services {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.category-buttons {
+    margin-bottom: 20px;
+}
+
+.category-btn {
+    background-color: #532828;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-btn:hover {
+    background-color: #402020;
+}
+
+/* Cake list styling */
+.cake-list {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+}
+
+.cake-list h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.cake-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cake-list ul li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13, .card14, .card15, .card16, .card17, .card18, .card19, .card20, .card21, .card22, .card23, .card24, .card25, .card26, .card27, .card28, .card29, .card30 {
+    height: 100px;
+    width: 100px;
+    background-color: #cbc7c7;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.cart {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+}
+
+.cart p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card1{
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card2{
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card3{
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card4{
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card5{
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card6{
+    background-image: url('https://cdn.pixabay.com/photo/2024/03/12/14/45/macarons-8628974_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card7{
+    background-image: url('https://cdn.pixabay.com/photo/2014/01/27/03/16/cupcake-252805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card8{
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/29/17/53/baklava-8728553_640.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card9{
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card10{
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/29/15/20/cake-4890393_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card11{
+    background-image: url('https://cdn.pixabay.com/photo/2024/06/28/06/07/cakes-8858626_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card12{
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/19/23/31/cakes-1681543_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card13{
+    background-image: url('https://cdn.pixabay.com/photo/2023/01/14/18/02/birthday-cake-7718754_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card14{
+    background-image: url('https://cdn.pixabay.com/photo/2021/09/01/16/09/birthday-cake-6591720_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card15{
+    background-image: url('https://cdn.pixabay.com/photo/2020/07/05/17/16/wedding-cake-5373757_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card16{
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/26/21/07/childrens-birthday-1543897_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card17{
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/cake-8598850_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card18{
+    background-image: url('https://cdn.pixabay.com/photo/2022/08/05/17/47/cake-7367272_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card19{
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/27/13/50/ai-generated-8723779_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card20{
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/peach-cake-8598851_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card21{
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/22/09/51/cake-8988890_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card22{
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/17/21/36/cake-1145609_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card23{
+    background-image: url('https://cdn.pixabay.com/photo/2015/11/06/13/35/wedding-cake-1027900_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card24{
+    background-image: url('https://cdn.pixabay.com/photo/2023/01/25/12/23/desert-7743456_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card25{
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/06/18/03/ai-generated-8110986_640.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card26{
+    background-image: url('https://cdn.pixabay.com/photo/2023/03/28/15/08/ai-generated-7883452_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card27{
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/cake-8598849_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card28{
+    background-image: url('https://cdn.pixabay.com/photo/2020/11/10/10/57/wedding-5729382_640.jpg ');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card29{
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/01/08/42/cake-827399_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card30{
+    background-image: url('https://cdn.pixabay.com/photo/2017/11/27/03/38/pie-2980431_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.card {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px; /* Adds perspective for 3D effect */
+}
+
+.card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    background-color: #cbc7c7; /* Front face color */
+}
+
+.card-back {
+    background-color: #320d0d; /* Back face color */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transform: rotateY(180deg);
 }
