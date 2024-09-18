@@ -11,11 +11,11 @@ document.getElementById('language-selector').addEventListener('change', function
     });
 
     // Change the background image based on the selected language
-    const homeSection = document.getElementById('imagela');
-    const newBgImage = homeSection.getAttribute(`data-${selectedLanguage}`);
-    if (newBgImage) {
-        homeSection.style.backgroundImage = `url(${newBgImage})`;
-    }
+    // const homeSection = document.getElementById('imagela');
+    // const newBgImage = homeSection.getAttribute(`data-${selectedLanguage}`);
+    // if (newBgImage) {
+    //     homeSection.style.backgroundImage = `url(${newBgImage})`;
+    // }
 });
 
 // Toggle navbar visibility on mobile

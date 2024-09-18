@@ -1,41 +1,115 @@
+/* General styling for cards */
 .card {
     position: relative;
     width: 150px;
     height: 150px;
-    perspective: 1000px; /* Adds perspective for 3D effect */
+    perspective: 1000px;
+    margin: 10px;
+    display: inline-block;
 }
 
 .card-inner {
-    position: absolute;
     width: 100%;
     height: 100%;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    cursor: pointer;
+    position: relative;
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    background-color: #cbc7c7;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-back {
+    background-color: #320d0d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transform: rotateY(180deg);
 }
 
 .card.flipped .card-inner {
     transform: rotateY(180deg);
 }
 
-.card-front,
-.card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-
-.card-front {
-    background-color: #cbc7c7; /* Front face color */
-}
-
-.card-back {
-    background-color: #320d0d; /* Back face color */
+.add-to-cart {
+    background-color: #532828;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.add-to-cart:hover {
+    background-color: #402020;
+}
+
+/* Cart styling */
+.cart {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart h2 {
+    margin-bottom: 10px;
     font-size: 1.5rem;
-    transform: rotateY(180deg);
+}
+
+.cart p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card1{
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card2{
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card3{
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card4{
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card5{
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
