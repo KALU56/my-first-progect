@@ -10,12 +10,7 @@ document.getElementById('language-selector').addEventListener('change', function
         }
     });
 
-    // Change the background image based on the selected language
-    // const homeSection = document.getElementById('imagela');
-    // const newBgImage = homeSection.getAttribute(`data-${selectedLanguage}`);
-    // if (newBgImage) {
-    //     homeSection.style.backgroundImage = `url(${newBgImage})`;
-    // }
+
 });
 
 // Toggle navbar visibility on mobile
@@ -69,6 +64,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const category = this.getAttribute('data-category');
             document.getElementById(category).style.display = 'block';
         });
+    });
+});
+
+document.getElementById('language-selector').addEventListener('change', function() {
+    const selectedLanguage = this.value;
+
+    // Change text content based on the selected language for all elements with data attributes
+    document.querySelectorAll('[data-en]').forEach(element => {
+        const newContent = element.getAttribute(`data-${selectedLanguage}`);
+        if (newContent) {
+            element.innerText = newContent;
+        }
     });
 });
 
