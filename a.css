@@ -186,8 +186,382 @@ nav ul li a {
     border-radius: 5px;
     border-radius: 12px;
 }
+.services{
+    text-align: center;
+}
+.Gallery{
+    text-align: center;
+}
+.card1{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card2{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card3{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card4{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card5{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card6{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/03/12/14/45/macarons-8628974_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card7{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2014/01/27/03/16/cupcake-252805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card8{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/29/17/53/baklava-8728553_640.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card9{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card10{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/29/15/20/cake-4890393_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card11{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/06/28/06/07/cakes-8858626_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card12{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/19/23/31/cakes-1681543_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card13{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/01/14/18/02/birthday-cake-7718754_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card14{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2021/09/01/16/09/birthday-cake-6591720_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card15{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2020/07/05/17/16/wedding-cake-5373757_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card16{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/26/21/07/childrens-birthday-1543897_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card17{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/cake-8598850_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card18{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/08/05/17/47/cake-7367272_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card19{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/27/13/50/ai-generated-8723779_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card20{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/peach-cake-8598851_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card21{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/22/09/51/cake-8988890_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card22{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/17/21/36/cake-1145609_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card23{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2015/11/06/13/35/wedding-cake-1027900_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card24{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/01/25/12/23/desert-7743456_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card25{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/06/18/03/ai-generated-8110986_640.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card26{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/03/28/15/08/ai-generated-7883452_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card27{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/20/09/cake-8598849_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card28{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2020/11/10/10/57/wedding-5729382_640.jpg ');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card29{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/01/08/42/cake-827399_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card30{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/11/27/03/38/pie-2980431_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 
+}
+.about{
 
-/* Services section */
+
+    text-align: center;
+    align-items: center;
+}.about-as{
+    padding-top: 25px;
+    color: white;
+    width: 1005px;
+    height: 400px;
+    background-color: #7a7878;
+    border-radius: 30px;
+    display: flex;
+   margin-left: 200px;
+}
+.about-as1{
+    color: white;
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+    border-radius: 0px 35px;
+    /* display: flex;
+    justify-content: flex-end; */
+    background-color: rgb(5, 5, 5);
+}
+.about-as2{
+   text-align: center;
+    border-radius: 0px 35px;
+    display: flex;
+  
+    background-color: rgb(9, 9, 9);
+}
+.about-as3{
+    padding-top: 50px;
+}
 
