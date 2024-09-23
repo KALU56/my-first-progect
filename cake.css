@@ -40,7 +40,8 @@
     transform: rotateY(180deg);
 }
 
-.card.flipped .card-inner {
+/* Add hover effect to trigger flip */
+.card:hover .card-inner {
     transform: rotateY(180deg);
 }
 
@@ -78,38 +79,157 @@
     font-size: 1.2rem;
     font-weight: bold;
 }
-.card1{
+
+/* Card background images */
+.card1 {
     background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
-.card2{
+
+.card2 {
     background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
-.card3{
+
+.card3 {
     background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
-.card4{
+
+.card4 {
     background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
-.card5{
+
+.card5 {
     background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
+.card6 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card7 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card8 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card9 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card10 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}.card11 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card12 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card13 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card14 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card15 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card16 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card17 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card18 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card19 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card20 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.remove-from-cart {
+    background-color: #601816;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.remove-from-cart:hover {
+    background-color: #420705;
+}
+
