@@ -1,22 +1,3 @@
-// Login Functionality
-document.getElementById('loginBtn').addEventListener('click', function() {
-    const username = document.getElementById('loginUsername').value;
-    const password = document.getElementById('loginPassword').value;
-
-    // Get stored user data
-    const storedUsername = localStorage.getItem('username');
-    const storedPassword = localStorage.getItem('password');
-
-    // Check if credentials match
-    if (username === storedUsername && password === storedPassword) {
-        alert('Login successful! You can now view the cake categories.');
-        document.getElementById('signupForm').style.display = 'none'; // Hide signup form
-        document.getElementById('loginForm').style.display = 'none'; // Hide login form
-        document.getElementById('main-content').style.display = 'block'; // Show main content
-    } else {
-        alert('Invalid username or password.');
-    }
-});
 
 // Toggle between Login and Signup Forms
 function toggleForms() {

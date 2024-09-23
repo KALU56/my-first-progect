@@ -1,55 +1,6 @@
-body, html {
-    height: 100%; /* Ensure the body and html take full height */
-    margin: 0; /* Remove default margin */
-}
-
-.container {
-  margin: auto;
-  border-radius: 70px;
-  margin-top: 70px;
-    width: 100%; /* Set a width for your container */
-    height: 60%;
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center;
-    max-width: 600px; /* Optional: Set a maximum width */
-    background-color: #713737; /* Background color for visibility */
-    padding: 20px; /* Add some padding */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add some shadow for depth */
-}
-
-.form {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.form h2 {
+.services{
     text-align: center;
-}
-
-.form input {
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.form button {
-    padding: 10px;
-    background-color: #b41818;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.form button:hover {
-    background-color: #d73e3e;
-}
-
-.form p {
-    text-align: center;
-    cursor: pointer;
-    color: rgb(222, 76, 23);
+    
 }
 /* General styling for cards */
 .card {
