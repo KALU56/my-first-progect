@@ -1,0 +1,239 @@
+.services{
+    text-align: center;
+    
+}
+/* General styling for cards */
+.card {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    background-color: #cbc7c7;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-back {
+    background-color: #320d0d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+}
+
+/* Add hover effect to trigger flip */
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.add-to-cart {
+    background-color: #532828;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.add-to-cart:hover {
+    background-color: #402020;
+}
+
+/* Cart styling */
+.cart {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.cart p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Card background images */
+.card1 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card2 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card3 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card4 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card5 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card6 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card7 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card8 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card9 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card10 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}.card11 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card12 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card13 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card14 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card15 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card16 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card17 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card18 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card19 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card20 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.remove-from-cart {
+    background-color: #601816;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.remove-from-cart:hover {
+    background-color: #420705;
+}
+
