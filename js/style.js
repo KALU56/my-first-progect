@@ -1,71 +1,3 @@
-// Language change functionality
-document.getElementById('language-selector').addEventListener('change', function() {
-    const selectedLanguage = this.value;
-
-    // Change text content based on the selected language
-    document.querySelectorAll('[data-en]').forEach(element => {
-        const newContent = element.getAttribute(`data-${selectedLanguage}`);
-        if (newContent) {
-            element.innerText = newContent;
-        }
-    });
-
-
-});
-
-// Toggle navbar visibility on mobile
-document.getElementById('hamburger').addEventListener('click', function() {
-    const navbar = document.getElementById('navbar');
-    navbar.classList.toggle('show');
-});
-document.querySelectorAll('.category-btn').forEach(button => {
-    button.addEventListener('click', function() {
-        // Hide all cake lists
-        document.querySelectorAll('.cake-list').forEach(list => {
-            list.style.display = 'none';
-        });
-
-        // Show the selected cake list
-        const category = this.getAttribute('data-category');
-        document.getElementById(category).style.display = 'block';
-    });
-});
-document.addEventListener('DOMContentLoaded', () => {
-    const cards = document.querySelectorAll('.card');
-    const cartCount = document.getElementById('cart-count');
-    let itemCount = 0;
-
-    // Handle card flip
-    cards.forEach(card => {
-        card.addEventListener('click', () => {
-            card.classList.toggle('flipped');
-        });
-    });
-
-    // Handle add to cart button click
-    document.querySelectorAll('.add-to-cart').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.stopPropagation(); // Prevent triggering card flip
-
-            itemCount++;
-            cartCount.textContent = itemCount;
-        });
-    });
-
-    // Category filter
-    document.querySelectorAll('.category-btn').forEach(button => {
-        button.addEventListener('click', function() {
-            // Hide all cake lists
-            document.querySelectorAll('.cake-list').forEach(list => {
-                list.style.display = 'none';
-            });
-
-            // Show the selected cake list
-            const category = this.getAttribute('data-category');
-            document.getElementById(category).style.display = 'block';
-        });
-    });
-});
 
 document.getElementById('language-selector').addEventListener('change', function() {
     const selectedLanguage = this.value;
@@ -78,4 +10,29 @@ document.getElementById('language-selector').addEventListener('change', function
         }
     });
 });
+
+const toggleButton = document.getElementById('theme-toggle');
+const themeIcon = document.getElementById('theme-icon');
+const currentTheme = localStorage.getItem('theme') || 'light';
+
+document.body.setAttribute('data-theme', currentTheme);
+themeIcon.className = currentTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+
+toggleButton.addEventListener('click', () => {
+  let theme = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  document.body.setAttribute('data-theme', theme);
+  themeIcon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+  localStorage.setItem('theme', theme);
+});
+
+document.getElementById('theme-toggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-theme');
+    const icon = document.getElementById('theme-icon');
+    if (document.body.classList.contains('dark-theme')) {
+        icon.classList.replace('fa-moon', 'fa-sun');
+    } else {
+        icon.classList.replace('fa-sun', 'fa-moon');
+    }
+});
+
 
