@@ -1,10 +1,24 @@
-/* Add any custom styles here */
-.navbar {
-    box-shadow: 0 4px 6px rgba(45, 3, 3, 0.503); /* Optional shadow */
+ /* Default (Light Mode) */
+ body {
+    background-color: white;
+    color: black;
 }
 
-.navbar .nav-link:hover {
-    color: #641406; /* Change link color on hover */
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
 }
 
-  
+/* Add any custom styles for the navbar links in dark mode */
+body.dark-mode .navbar .nav-link {
+    color: #f1f1f1;
+}
+
+body.dark-mode .navbar .nav-link:hover {
+    color: #ccc;
+}
+.toggle-button {
+    width: 120px; /* Adjust width as needed */
+  }
+
