@@ -1,12 +1,12 @@
 
 <h1>Family Cake Website</h1>
 <h2>Project Overview</h2>
-The<h4>Family Cake </h4> website is an online platform designed for a cake shop. It showcases a variety of cakes, services, and options for customers to explore. The website is fully responsive, meaning it adjusts beautifully across different screen sizes, from mobile to desktop.
+The Family Cake website is an online platform designed for a cake shop. It showcases a variety of cakes, services, and options for customers to explore. The website is fully responsive, meaning it adjusts beautifully across different screen sizes, from mobile to desktop.
 
 Features
-Home Page: Introduction to the shop and its offerings.
-Services Page: Detailed information about the different types of cakes and services offered.
-Cake Categories: Users can browse various cake categories. Includes functionality to switch between different languages.
+.Home Page: Introduction to the shop and its offerings.
+.Services Page: Detailed information about the different types of cakes and services offered.
+.Cake Categories: Users can browse various cake categories. Includes functionality to switch between different languages.
 About Us: Provides background information on the brand.
 Responsive Design: Optimized for both mobile and desktop users.
 Interactive Navbar: A dynamic navigation bar that adapts based on screen size.
