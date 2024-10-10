@@ -3,20 +3,20 @@
 <h2>Project Overview</h2>
 The Family Cake website is an online platform designed for a cake shop. It showcases a variety of cakes, services, and options for customers to explore. The website is fully responsive, meaning it adjusts beautifully across different screen sizes, from mobile to desktop.
 
-Features
-.Home Page: Introduction to the shop and its offerings.
-.Services Page: Detailed information about the different types of cakes and services offered.
-.Cake Categories: Users can browse various cake categories. Includes functionality to switch between different languages.
-About Us: Provides background information on the brand.
-Responsive Design: Optimized for both mobile and desktop users.
-Interactive Navbar: A dynamic navigation bar that adapts based on screen size.
-Technologies Used
-HTML5: Structuring the content of the website.
-CSS3: For styling and responsive design.
-JavaScript (JS): For interactivity and language switching.
-GitHub Pages: Hosting the website.
-Installation and Setup
-To run the website locally, follow these steps:
+Features<br>
+#Home Page: Introduction to the shop and its offerings.<br>
+#Services Page: Detailed information about the different types of cakes and services offered.<br>
+#Cake Categories: Users can browse various cake categories. Includes functionality to switch between different languages.<br>
+#About Us: Provides background information on the brand.<br>
+#Responsive Design: Optimized for both mobile and desktop users.<br>
+#Interactive Navbar: A dynamic navigation bar that adapts based on screen size.
+Technologies Used<br>
+#HTML5: Structuring the content of the website.<br>
+#CSS3: For styling and responsive design.<br>
+#JavaScript (JS): For interactivity and language switching.<br>
+#GitHub Pages: Hosting the website.<br>
+#Installation and Setup<br>
+#To run the website locally, follow these steps:<br>
 
 Clone the Repository:
 
