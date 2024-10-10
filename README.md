@@ -3,7 +3,7 @@
 <h2>Project Overview</h2>
 The Family Cake website is an online platform designed for a cake shop. It showcases a variety of cakes, services, and options for customers to explore. The website is fully responsive, meaning it adjusts beautifully across different screen sizes, from mobile to desktop.
 
-Features<br>
+         Features<br>
 #Home Page: Introduction to the shop and its offerings.<br>
 #Services Page: Detailed information about the different types of cakes and services offered.<br>
 #Cake Categories: Users can browse various cake categories. Includes functionality to switch between different languages.<br>
@@ -18,7 +18,7 @@ Technologies Used<br>
 #Installation and Setup<br>
 #To run the website locally, follow these steps:<br>
 
-      Clone the Repository:
+    Clone the Repository:
 
 bash
 Copy code
