@@ -18,7 +18,7 @@ Technologies Used<br>
 #Installation and Setup<br>
 #To run the website locally, follow these steps:<br>
 
-Clone the Repository:
+      Clone the Repository:
 
 bash
 Copy code
