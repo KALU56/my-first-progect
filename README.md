@@ -1,4 +1,3 @@
-
 <h1>Family Cake Website</h1>
 <h2>Project Overview</h2>
 The Family Cake website is an online platform designed for a cake shop. It showcases a variety of cakes, services, and options for customers to explore. The website is fully responsive, meaning it adjusts beautifully across different screen sizes, from mobile to desktop.
@@ -42,5 +41,5 @@ Introduce User Login for personalized experiences.
 Contributions
 If you’d like to contribute to this project, feel free to create a pull request or submit an issue.
 
-License
+   License
 This project is licensed under the MIT License.
