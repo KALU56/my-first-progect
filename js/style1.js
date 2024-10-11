@@ -110,3 +110,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', function() {
+        const productName = this.parentElement.querySelector('h2').textContent;
+        const quantity = this.parentElement.querySelector('input').value;
+        alert(`Added ${quantity} of "${productName}" to the cart!`);
+    });
+});
