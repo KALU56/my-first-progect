@@ -11,68 +11,232 @@
 </head>
 <body>
     
-    <header>
-        <div class="cart">
-            <h2>Cart 🛒</h2>
-            <p>Items in cart: <span id="cart-count">0</span></p>
-        </div>
+   
         
-    </header>
+   
 
-    <div class="services" id="services">
+    <div class="services text-center" id="services">
         <h2>Our Cake Categories</h2>
         <div class="category-buttons">
             <button class="category-btn" data-category="birthday">Birthday Cakes</button>
             <button class="category-btn" data-category="wedding">Wedding Cakes</button>
             <button class="category-btn" data-category="dessert">Desserts</button>
             <button class="category-btn" data-category="chocolate">Chocolate Cakes</button> <!-- Fixed the spelling -->
-            <button class="category-btn" data-category="holiday">Holiday Cakes</button> <!-- Added Holiday Cakes -->
+           
         </div>
 
        
+        <div class="cart">
+            <h2>Cart 🛒</h2>
+            <p>Items in cart: <span id="cart-count">0</span></p>
+        </div>
     </div>
     ////*jk*////
+    <div class="cake-list" id="birthday"></div>
+    <div class="cake-list" id="dessert"></div>
+    <div class="cake-list" id="dessert">
 
-<div class="product-grid">
-    <div class="product-card">
-        <img src="socks.png" alt="Black and Gray Athletic Cotton Socks">
-        <h2>Black and Gray Athletic Cotton Socks</h2>
+    </div>
+    <div class="cake-list" id="dessert"></div>
+<div class="cake-list" id="dessert">
+<div class="product-grid row">
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2016/10/31/18/14/dessert-1786311_640.jpg" alt="desserts">
+        <h2>Dessert</h2>
         <div class="rating">★★★★☆ 87</div>
         <p class="price">$10.90</p>
         <input type="number" value="1" min="1">
         <button class="add-to-cart">Add to Cart</button>
     </div>
 
-    <div class="product-card">
-        <img src="basketball.png" alt="Intermediate Size Basketball">
-        <h2>Intermediate Size Basketball</h2>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/04/13/11/29/muffins-8693748_1280.jpg" alt="dessert cake">
+        <h2>Dessert</h2>
         <div class="rating">★★★★☆ 127</div>
         <p class="price">$20.95</p>
         <input type="number" value="1" min="1">
         <button class="add-to-cart">Add to Cart</button>
     </div>
 
-    <div class="product-card">
-        <img src="shirt.png" alt="Adults Plain Cotton T-Shirt">
-        <h2>Adults Plain Cotton T-Shirt - 2 Pack</h2>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg" alt="dessert">
+        <h2>Dessert</h2>
         <div class="rating">★★★★☆ 56</div>
         <p class="price">$7.99</p>
         <input type="number" value="1" min="1">
         <button class="add-to-cart">Add to Cart</button>
     </div>
 
-    <div class="product-card">
-        <img src="toaster.png" alt="2 Slot Toaster - Black">
-        <h2>2 Slot Toaster - Black</h2>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg" alt="cake">
+        <h2>vanela Cake</h2>
+        <div class="rating">★★★★★ 2197</div>
+        <p class="price">$18.99</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/03/12/14/45/macarons-8628974_640.jpg" alt="dessert cake">
+        <h2>Dessert</h2>
+        <div class="rating">★★★★☆ 127</div>
+        <p class="price">$20.95</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+</div>
+<div class="cake-list" id="dessert">
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg" alt="chocolate">
+        <h2>chocolatet cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2014/01/27/03/16/cupcake-252805_640.jpg" alt="dessert">
+        <h2>Dessert</h2>
+        <div class="rating">★★★★☆ 56</div>
+        <p class="price">$7.99</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/04/29/17/53/baklava-8728553_640.png" alt="cake">
+        <h2>vanela Cake</h2>
         <div class="rating">★★★★★ 2197</div>
         <p class="price">$18.99</p>
         <input type="number" value="1" min="1">
         <button class="add-to-cart">Add to Cart</button>
     </div>
 
-    <div class="product-card">
-        <img src="plate-set.png" alt="6 Piece White Dinner Plate Set">
-        <h2>6 Piece White Dinner Plate Set</h2>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg" alt="chocolate">
+        <h2>chocolatet cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2023/07/23/20/44/pastry-shop-8145805_640.jpg" alt="dessert">
+        <h2>Dessert</h2>
+        <div class="rating">★★★★☆ 56</div>
+        <p class="price">$7.99</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+</div>
+<div class="cake-list" id="dessert">
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361_640.jpg" alt="cake">
+        <h2>vanela Cake</h2>
+        <div class="rating">★★★★★ 2197</div>
+        <p class="price">$18.99</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/08/24/10/11/chocolate-8993901_640.jpg" alt="chocolate">
+        <h2>chocolatet cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/03/12/14/45/macarons-8628974_640.jpg" alt="dessert cake">
+        <h2>Dessert</h2>
+        <div class="rating">★★★★☆ 127</div>
+        <p class="price">$20.95</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+</div>
+//
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/06/28/06/07/cakes-8858626_640.jpg" alt="dessert">
+        <h2>Dessert</h2>
+        <div class="rating">★★★★☆ 56</div>
+        <p class="price">$7.99</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2016/09/19/23/31/cakes-1681543_640.jpg" alt="cake">
+        <h2>birthday Cake</h2>
+        <div class="rating">★★★★★ 2197</div>
+        <p class="price">$18.99</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2023/01/14/18/02/birthday-cake-7718754_640.jpg" alt="chocolate">
+        <h2>birthday Cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2020/07/05/17/16/wedding-cake-5373757_640.jpg" alt="cake">
+        <h2>birthday Cake</h2>
+        <div class="rating">★★★★★ 2197</div>
+        <p class="price">$18.99</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/02/26/20/09/cake-8598850_640.jpg" alt="chocolate">
+        <h2>birthday Cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/04/27/13/50/ai-generated-8723779_640.jpg" alt="chocolate">
+        <h2>birthday Cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/02/26/20/09/peach-cake-8598851_640.jpg" alt="chocolate">
+        <h2>birthday Cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/08/22/09/51/cake-8988890_640.jpg" alt="chocolate">
+        <h2>wedding Cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2024/02/26/20/09/peach-cake-8598851_640.jpg" alt="chocolate">
+        <h2>birthday Cake</h2>
+        <div class="rating">★★★★☆ 37</div>
+        <p class="price">$20.67</p>
+        <input type="number" value="1" min="1">
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2015/11/06/13/35/wedding-cake-1027900_640.jpg" alt="chocolate">
+        <h2>wedding Cake</h2>
         <div class="rating">★★★★☆ 37</div>
         <p class="price">$20.67</p>
         <input type="number" value="1" min="1">
