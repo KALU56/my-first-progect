@@ -54,3 +54,6 @@
 .add-to-cart:hover {
     background-color: #3a0202;
 }
+.product-card{
+    height: 700px;
+}
