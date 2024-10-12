@@ -140,3 +140,10 @@ body.dark-mode .navbar .nav-link:hover {
 .product-card{
     height: 700px;
 }
+.about-us3 {
+    background-image: url('https://cdn.pixabay.com/photo/2024/03/12/14/45/macarons-8628974_640.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    /* width: 100%; */
+}
