@@ -1,7 +1,7 @@
  /* Default (Light Mode) */
  body {
-    /* background-color: rgb(69, 4, 4); */
-    /* color: rgb(69, 4, 4); */
+    background-color: rgb(69, 4, 4); 
+ color: rgb(69, 4, 4);
 }
 
 
@@ -30,18 +30,7 @@ body.dark-mode .navbar .nav-link:hover {
     font-style: normal;
     color: rgb(69, 4, 4);
 }
-/* .intro-text{
-   
-    font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
- 
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    color: #0d0b0b;
-    padding-top: 50px;
- 
-} */
+
 .intro-image {
     position: relative;
     height: 700px; /* Adjust height as needed */
@@ -145,5 +134,5 @@ body.dark-mode .navbar .nav-link:hover {
     background-size: cover;
     background-position: center;
     height: 100%;
-    /* width: 100%; */
+   
 }
