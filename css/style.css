@@ -1,10 +1,16 @@
  /* Default (Light Mode) */
- body {
+ /* body {
     background-color: rgb(69, 4, 4); 
  color: rgb(69, 4, 4);
-}
+} */
 
-
+.bg-dark {
+    color: #fff; /* White text for dark background */
+  }
+  
+  .bg-light {
+    color: #000; /* Dark text for light background */
+  }
 /* Dark Mode */
 body.dark-mode {
     background-color: #121212;

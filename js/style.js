@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.category-btn').forEach(button => {
         button.addEventListener('click', function() {
             // Hide all cake lists
-            document.querySelectorAll('.cake-list').forEach(list => {
+            document.querySelectorAll('.product-grid').forEach(list => {
                 list.style.display = 'none';
             });
   
