@@ -7,6 +7,28 @@ body {
   background-color: #222121;
   color: white;
 }
+.history-section {
+  background-color: noun;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.history-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+#history {
+  list-style-type: none;
+}
+
+#history li {
+  padding: 5px 0;
+  font-size: 1.2rem;
+}
+
 .phone-frame {
   width: 260px;
   height: 580px;
@@ -32,14 +54,14 @@ body {
 
 .icons i {
   margin-left: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .calculator {
   border: 4px solid #f3f0f0;
   padding: 20px;
   background-color: #0f0e0e;
   
-  border-radius: 30px;
+  border-radius: 40px;
   
 }
 
@@ -53,22 +75,26 @@ body {
   border: none;
    color: white; 
   padding: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 45px;
 }
 
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 5px;
 }
 
 .btn {
-  padding: 20px;
+  padding: 15px;
   font-size: 18px;
   background-color: #343131;
   border-radius: 50px;
   color: white;
+
   /* cursor: pointer; */
+}
+.buttons{
+  margin-bottom: 40px;
 }
 .li{
   background-color: rgba(239, 133, 11, 0.838);
@@ -86,4 +112,10 @@ body {
 #clear {
   background-color: #f44336;
   color: white;
+}
+.custom-line {
+  border: none;          /* Remove the default border */
+  height: 3px;          /* Set the height to 40px */
+  background-color: #fffafa; /* Choose the line color (black in this case) */
+  width: 45%;           /* Set the width to cover the full page or a specific percentage */
 }
