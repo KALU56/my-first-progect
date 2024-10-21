@@ -90,11 +90,7 @@ $(document).ready(function() {
     }
 
     // Handle "H" for toggling history
-    else if (value === 'H') {
-      $('.history-section').toggle(); // Show/Hide history
-    }
-
-    updateDisplay();
+ 
   });
 
   // Perform calculations
