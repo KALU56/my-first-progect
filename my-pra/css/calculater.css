@@ -39,6 +39,7 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   border: 5px solid #333;
 }
+
 .status-bar {
   display: flex;
   justify-content: space-between;
@@ -83,7 +84,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
 }
-
+.btn big{
+  padding: 35px; 
+  font-size: 28px;
+}
 .btn {
   padding: 15px;
   font-size: 18px;
